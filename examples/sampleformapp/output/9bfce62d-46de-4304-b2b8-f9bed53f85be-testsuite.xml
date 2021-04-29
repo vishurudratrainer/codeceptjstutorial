@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619634903019' stop='1619634903084'>
+    <name>bootstrapform3:</name>
+    <title>bootstrapform3:</title>
+    <test-cases>
+        <test-case start='1619634903030' status='passed' stop='1619634903056'>
+            <name>test bootstrap with dataid</name>
+            <title>test bootstrap with dataid</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619634903038' status='passed' stop='1619634903046'>
+                    <name>I am on page "http://localhost:3001/datatestid"</name>
+                    <title>I am on page "http://localhost:3001/datatestid"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634903047' status='passed' stop='1619634903050'>
+                    <name>I fill field {"css":"[data-testid=username]"}, "vishwa"</name>
+                    <title>I fill field {"css":"[data-testid=username]"}, "vishwa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634903052' status='passed' stop='1619634903055'>
+                    <name>I fill field {"css":"[data-testid=password]"}, *****</name>
+                    <title>I fill field {"css":"[data-testid=password]"}, *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1619634903064' status='passed' stop='1619634903079'>
+            <name>test custom data id plugin with dataid</name>
+            <title>test custom data id plugin with dataid</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619634903074' status='passed' stop='1619634903077'>
+                    <name>I am on page "http://localhost:3001/datatestid"</name>
+                    <title>I am on page "http://localhost:3001/datatestid"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634903077' status='passed' stop='1619634903078'>
+                    <name>I fill field "$username", "vishwa"</name>
+                    <title>I fill field "$username", "vishwa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634903078' status='passed' stop='1619634903079'>
+                    <name>I fill field "$password", *****</name>
+                    <title>I fill field "$password", *****</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

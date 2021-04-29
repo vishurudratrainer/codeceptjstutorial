@@ -1,0 +1,76 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619634850884' stop='1619634851055'>
+    <name>:</name>
+    <title>:</title>
+    <test-cases>
+        <test-case start='1619634850899' status='passed' stop='1619634851044'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619634851006' status='passed' stop='1619634851014'>
+                    <name>I am on page "http://localhost:3001/"</name>
+                    <title>I am on page "http://localhost:3001/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851015' status='passed' stop='1619634851018'>
+                    <name>I fill field "customer_name", "User"</name>
+                    <title>I fill field "customer_name", "User"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851019' status='passed' stop='1619634851021'>
+                    <name>I fill field "phone_number", "98922277227"</name>
+                    <title>I fill field "phone_number", "98922277227"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851022' status='passed' stop='1619634851023'>
+                    <name>I fill field "email_address", "1234@eee.com"</name>
+                    <title>I fill field "email_address", "1234@eee.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851023' status='passed' stop='1619634851025'>
+                    <name>I click "body > form > fieldset:nth-child(4) > p:nth-child(3) > label > input[type=radio]"</name>
+                    <title>I click "body > form > fieldset:nth-child(4) > p:nth-child(3) > label > input[type=radio]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851025' status='passed' stop='1619634851026'>
+                    <name>I click "body > form > fieldset:nth-child(5) > p:nth-child(3) > label > input[type=checkbox]"</name>
+                    <title>I click "body > form > fieldset:nth-child(5) > p:nth-child(3) > label > input[type=checkbox]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851026' status='passed' stop='1619634851030'>
+                    <name>I fill field "#datetime-local", "22-04-2020"</name>
+                    <title>I fill field "#datetime-local", "22-04-2020"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851030' status='passed' stop='1619634851033'>
+                    <name>I fill field "comments", "Hello how r u ?"</name>
+                    <title>I fill field "comments", "Hello how r u ?"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851034' status='passed' stop='1619634851037'>
+                    <name>I click "button"</name>
+                    <title>I click "button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634851038' status='passed' stop='1619634851039'>
+                    <name>I grab h t m l from </name>
+                    <title>I grab h t m l from </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

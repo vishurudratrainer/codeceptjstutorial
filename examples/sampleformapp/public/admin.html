@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <form method="post" >
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="row mb-4">
+      <div class="col">
+        <div class="form-outline">
+          <input type="text" id="username" name="username" class="form-control" />
+          <label class="form-label" for="username">User name</label>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <input type="password" id="password" name="password" class="form-control" />
+          <label class="form-label" for="password">Password</label>
+        </div>
+      </div>
+    </div>
+  
+    
+    <!-- Submit button -->
+    <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+  </form>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619634991653' stop='1619634998016'>
+    <name>locator2:</name>
+    <title>locator2:</title>
+    <test-cases>
+        <test-case start='1619634991653' status='pending' stop='1619634991653'>
+            <name>Test Login | {"login":"admin","password":"23456"}</name>
+            <title>Test Login | {"login":"admin","password":"23456"}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619634991663' status='passed' stop='1619634997731'>
+            <name>test iframe</name>
+            <title>test iframe</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619634994648' status='passed' stop='1619634995104'>
+                    <name>I am on page "http://localhost:3001/iframe1"</name>
+                    <title>I am on page "http://localhost:3001/iframe1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634995105' status='passed' stop='1619634995575'>
+                    <name>I click button</name>
+                    <title>I click button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634995577' status='passed' stop='1619634995624'>
+                    <name>I grab all window handles </name>
+                    <title>I grab all window handles </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634995626' status='passed' stop='1619634995700'>
+                    <name>I switch to window "CDwindow-1F5CA10ED1D77EA804C0E53180D7F8D2"</name>
+                    <title>I switch to window "CDwindow-1F5CA10ED1D77EA804C0E53180D7F8D2"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619634995701' status='passed' stop='1619634997729'>
+                    <name>I grab current url </name>
+                    <title>I grab current url </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

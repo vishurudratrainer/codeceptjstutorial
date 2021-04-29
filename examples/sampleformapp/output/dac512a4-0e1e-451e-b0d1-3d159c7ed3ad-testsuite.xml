@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619635011262' stop='1619635011320'>
+    <name>locator2:</name>
+    <title>locator2:</title>
+    <test-cases>
+        <test-case start='1619635011264' status='passed' stop='1619635011314'>
+            <name>test with  locator on id</name>
+            <title>test with  locator on id</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619635011281' status='passed' stop='1619635011286'>
+                    <name>I am on page "http://localhost:3001/bootstrap"</name>
+                    <title>I am on page "http://localhost:3001/bootstrap"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011286' status='passed' stop='1619635011289'>
+                    <name>I fill field {"id":"form6Example1"}, "vishwa"</name>
+                    <title>I fill field {"id":"form6Example1"}, "vishwa"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011290' status='passed' stop='1619635011293'>
+                    <name>I fill field {"id":"form6Example2"}, "nara"</name>
+                    <title>I fill field {"id":"form6Example2"}, "nara"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011293' status='passed' stop='1619635011295'>
+                    <name>I fill field {"id":"form6Example3"}, "XYZ"</name>
+                    <title>I fill field {"id":"form6Example3"}, "XYZ"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011295' status='passed' stop='1619635011297'>
+                    <name>I fill field {"id":"form6Example4"}, " Chembur Mumbai"</name>
+                    <title>I fill field {"id":"form6Example4"}, " Chembur Mumbai"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011298' status='passed' stop='1619635011301'>
+                    <name>I fill field {"id":"form6Example5"}, "ss@ss.com"</name>
+                    <title>I fill field {"id":"form6Example5"}, "ss@ss.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011301' status='passed' stop='1619635011304'>
+                    <name>I fill field {"id":"form6Example6"}, "9892426745"</name>
+                    <title>I fill field {"id":"form6Example6"}, "9892426745"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011305' status='passed' stop='1619635011308'>
+                    <name>I fill field {"id":"form6Example7"}, "Hello how are u"</name>
+                    <title>I fill field {"id":"form6Example7"}, "Hello how are u"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011309' status='passed' stop='1619635011310'>
+                    <name>I select option "sel1", "3"</name>
+                    <title>I select option "sel1", "3"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011311' status='passed' stop='1619635011312'>
+                    <name>I click "#form6Example8"</name>
+                    <title>I click "#form6Example8"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011312' status='passed' stop='1619635011313'>
+                    <name>I click "Place order"</name>
+                    <title>I click "Place order"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011313' status='passed' stop='1619635011314'>
+                    <name>I see "form6Example1"</name>
+                    <title>I see "form6Example1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

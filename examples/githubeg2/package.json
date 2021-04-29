@@ -1,0 +1,20 @@
+{
+  "name": "githubeg2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pollyjs/core": "^5.1.0",
+    "codeceptjs": "^3.0.6",
+    "puppeteer": "^9.0.0"
+  },
+  "dependencies": {
+    "@codeceptjs/mock-request": "^0.3.0"
+  }
+}

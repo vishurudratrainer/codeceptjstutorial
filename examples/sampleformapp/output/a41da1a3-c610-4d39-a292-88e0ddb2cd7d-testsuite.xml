@@ -1,0 +1,88 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619635425107' stop='1619635438043'>
+    <name>:</name>
+    <title>:</title>
+    <test-cases>
+        <test-case start='1619635425115' status='failed' stop='1619635437329'>
+            <name>test something</name>
+            <title>test something</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619635428131' status='passed' stop='1619635428676'>
+                    <name>I am on page "http://localhost:3001/"</name>
+                    <title>I am on page "http://localhost:3001/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635428677' status='passed' stop='1619635429244'>
+                    <name>I fill field "customer_name", "User"</name>
+                    <title>I fill field "customer_name", "User"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635429244' status='passed' stop='1619635429681'>
+                    <name>I fill field "phone_number", "98922277227"</name>
+                    <title>I fill field "phone_number", "98922277227"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635429681' status='passed' stop='1619635430081'>
+                    <name>I fill field "email_address", "1234@eee.com"</name>
+                    <title>I fill field "email_address", "1234@eee.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635430082' status='passed' stop='1619635430525'>
+                    <name>I click "body > form > fieldset:nth-child(4) > p:nth-child(3) > label > input[type=radio]"</name>
+                    <title>I click "body > form > fieldset:nth-child(4) > p:nth-child(3) > label > input[type=radio]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635430525' status='passed' stop='1619635430953'>
+                    <name>I click "body > form > fieldset:nth-child(5) > p:nth-child(3) > label > input[type=checkbox]"</name>
+                    <title>I click "body > form > fieldset:nth-child(5) > p:nth-child(3) > label > input[type=checkbox]"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635430954' status='passed' stop='1619635431532'>
+                    <name>I fill field "#datetime-local", "22-04-2020"</name>
+                    <title>I fill field "#datetime-local", "22-04-2020"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635431533' status='passed' stop='1619635432065'>
+                    <name>I fill field "comments", "Hello how r u ?"</name>
+                    <title>I fill field "comments", "Hello how r u ?"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635432066' status='passed' stop='1619635432628'>
+                    <name>I click "button"</name>
+                    <title>I click "button"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635432628' status='failed' stop='1619635437326'>
+                    <name>I grab h t m l from </name>
+                    <title>I grab h t m l from </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='8e1f12db-7a26-43c0-8da4-03cecd7377f4-attachment.png' type='image/png' size='24917'/>
+            </attachments>
+            <failure>
+                <message>Cannot read property 'type' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'type' of undefined
+                    at WebDriver._isShadowLocator (D:\codeceptjs\examples\sampleformapp\node_modules\codeceptjs\lib\helper\WebDriver.js:675:20)
+                    at WebDriver._locate (D:\codeceptjs\examples\sampleformapp\node_modules\codeceptjs\lib\helper\WebDriver.js:740:14)
+                    at WebDriver.grabHTMLFromAll (D:\codeceptjs\examples\sampleformapp\node_modules\codeceptjs\lib\helper\WebDriver.js:1124:30)
+                    at WebDriver.grabHTMLFrom (D:\codeceptjs\examples\sampleformapp\node_modules\codeceptjs\lib\helper\WebDriver.js:1135:29)
+                    at Step.run (D:\codeceptjs\examples\sampleformapp\node_modules\codeceptjs\lib\step.js:66:47)
+                    at D:\codeceptjs\examples\sampleformapp\node_modules\codeceptjs\lib\actor.js:117:23</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

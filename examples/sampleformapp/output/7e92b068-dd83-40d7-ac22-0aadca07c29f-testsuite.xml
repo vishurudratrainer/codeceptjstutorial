@@ -1,0 +1,260 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1619635011491' stop='1619635011708'>
+    <name>locator2:</name>
+    <title>locator2:</title>
+    <test-cases>
+        <test-case start='1619635011492' status='pending' stop='1619635011492'>
+            <name>Test Login | {"login":"admin","password":"23456"}</name>
+            <title>Test Login | {"login":"admin","password":"23456"}</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619635011495' status='failed' stop='1619635011533'>
+            <name>test iframe</name>
+            <title>test iframe</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619635011503' status='passed' stop='1619635011508'>
+                    <name>I am on page "http://localhost:3001/iframe1"</name>
+                    <title>I am on page "http://localhost:3001/iframe1"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011509' status='passed' stop='1619635011512'>
+                    <name>I click button</name>
+                    <title>I click button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011513' status='passed' stop='1619635011516'>
+                    <name>I grab all window handles </name>
+                    <title>I grab all window handles </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011518' status='passed' stop='1619635011519'>
+                    <name>I switch to window &lt;VALUE></name>
+                    <title>I switch to window &lt;VALUE></title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011521' status='passed' stop='1619635011526'>
+                    <name>I grab current url </name>
+                    <title>I grab current url </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>object is not a function</message>
+                <stack-trace>TypeError: object is not a function
+                    at Test.&lt;anonymous> (D:\codeceptjs\examples\sampleformapp\locator5_test.js:10:21)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1619635011548' status='passed' stop='1619635011564'>
+            <name>test alert</name>
+            <title>test alert</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619635011550' status='passed' stop='1619635011552'>
+                    <name>I am on page "http://localhost:3001/alert"</name>
+                    <title>I am on page "http://localhost:3001/alert"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011553' status='passed' stop='1619635011556'>
+                    <name>I click button</name>
+                    <title>I click button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011557' status='passed' stop='1619635011561'>
+                    <name>I see in popup "Hello! I am an alert box"</name>
+                    <title>I see in popup "Hello! I am an alert box"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011561' status='passed' stop='1619635011564'>
+                    <name>I accept popup </name>
+                    <title>I accept popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1619635011576' status='passed' stop='1619635011603'>
+            <name>test confirm</name>
+            <title>test confirm</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1619635011590' status='passed' stop='1619635011593'>
+                    <name>I am on page "http://localhost:3001/confirm"</name>
+                    <title>I am on page "http://localhost:3001/confirm"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011593' status='passed' stop='1619635011595'>
+                    <name>I click button</name>
+                    <title>I click button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011595' status='passed' stop='1619635011596'>
+                    <name>I see in popup "Press a button!"</name>
+                    <title>I see in popup "Press a button!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011596' status='passed' stop='1619635011597'>
+                    <name>I accept popup </name>
+                    <title>I accept popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011598' status='passed' stop='1619635011599'>
+                    <name>I click button</name>
+                    <title>I click button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011599' status='passed' stop='1619635011600'>
+                    <name>I see in popup "Press a button!"</name>
+                    <title>I see in popup "Press a button!"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011600' status='passed' stop='1619635011603'>
+                    <name>I cancel popup </name>
+                    <title>I cancel popup </title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1619635011612' status='passed' stop='1619635011627'>
+            <name>Test Login | {"login":"davert","password":"123456"} @slow @important</name>
+            <title>Test Login | {"login":"davert","password":"123456"} @slow @important</title>
+            <labels>
+                <label name='tag' value='@slow'/>
+                <label name='tag' value='@important'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1619635011614' status='passed' stop='1619635011615'>
+                    <name>I am on page "http://localhost:3001/admin"</name>
+                    <title>I am on page "http://localhost:3001/admin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011616' status='passed' stop='1619635011619'>
+                    <name>I fill field "username", "davert"</name>
+                    <title>I fill field "username", "davert"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011620' status='passed' stop='1619635011623'>
+                    <name>I fill field "password", "123456"</name>
+                    <title>I fill field "password", "123456"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011623' status='passed' stop='1619635011625'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011626' status='passed' stop='1619635011627'>
+                    <name>I see "Hellodavert"</name>
+                    <title>I see "Hellodavert"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1619635011637' status='passed' stop='1619635011657'>
+            <name>Test Login | {"login":"admin","password":"123456"} @slow @important</name>
+            <title>Test Login | {"login":"admin","password":"123456"} @slow @important</title>
+            <labels>
+                <label name='tag' value='@slow'/>
+                <label name='tag' value='@important'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1619635011646' status='passed' stop='1619635011649'>
+                    <name>I am on page "http://localhost:3001/admin"</name>
+                    <title>I am on page "http://localhost:3001/admin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011650' status='passed' stop='1619635011651'>
+                    <name>I fill field "username", "admin"</name>
+                    <title>I fill field "username", "admin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011651' status='passed' stop='1619635011652'>
+                    <name>I fill field "password", "123456"</name>
+                    <title>I fill field "password", "123456"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011653' status='passed' stop='1619635011654'>
+                    <name>I click "Login"</name>
+                    <title>I click "Login"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011654' status='passed' stop='1619635011657'>
+                    <name>I see "Helloadmin"</name>
+                    <title>I see "Helloadmin"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1619635011683' status='passed' stop='1619635011699'>
+            <name>Compare CodeceptIO Home Page @visual-test</name>
+            <title>Compare CodeceptIO Home Page @visual-test</title>
+            <labels>
+                <label name='tag' value='@visual-test'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1619635011691' status='passed' stop='1619635011693'>
+                    <name>I am on page "https://codecept.io/"</name>
+                    <title>I am on page "https://codecept.io/"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011693' status='passed' stop='1619635011694'>
+                    <name>I save screenshot "Codecept_IO_Screenshot_Image.png"</name>
+                    <title>I save screenshot "Codecept_IO_Screenshot_Image.png"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1619635011695' status='passed' stop='1619635011698'>
+                    <name>I see visual diff "Codecept_IO_Screenshot_Image.png", {"tolerance":2,"prepareBaseImage":false}</name>
+                    <title>I see visual diff "Codecept_IO_Screenshot_Image.png", {"tolerance":2,"prepareBaseImage":false}</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

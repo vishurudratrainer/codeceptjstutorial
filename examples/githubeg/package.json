@@ -1,0 +1,19 @@
+{
+  "name": "githubeg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "codeceptjs": "^3.0.6",
+    "playwright": "^1.10.0"
+  },
+  "dependencies": {
+    "@codeceptjs/mock-request": "^0.3.0",
+    "@codeceptjs/ui": "^0.4.3"
+  }
+}

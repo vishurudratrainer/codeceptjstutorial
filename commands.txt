@@ -1,0 +1,50 @@
+
+Commands on gs1
+npx codeceptjs init
+npx codeceptjs run --steps
+npx codeceptjs generate:test
+npx create-codeceptjs .
+
+npx create-codeceptjs tests
+
+npm run codeceptjs:demo - executes demo tests in window mode
+npm run codeceptjs:demo:headless - executes demo tests in headless mode
+npm run codeceptjs:demo:ui - open CodeceptJS UI to list and run demo tests.
+
+
+Playwright
+npm init -y
+npx codeceptjs init
+npx codeceptjs run --steps
+
+npm i @codeceptjs/ui --save
+npm run codeceptjs:ui
+npx codecept-ui --app
+npm install selenium-standalone -g
+npm install selenium-standalone -g
+selenium-standalone install && selenium-standalone start
+
+npm install qrcode-terminal
+npm install -g testcafe
+npm install --save nightmare
+
+Autocompletion
+npx codeceptjs def
+
+npx express-generator
+npx codeceptjs generate:test
+npm i @codeceptjs/mock-request --save-dev
+npx codeceptjs run --plugins stepByStepReport
+npx codeceptjs run -c codecept.ci.conf.js
+npm install @pollyjs/core -D
+
+npx codeceptjs gpo
+npm install typescript ts-node
+
+npm install codeceptjs-resemblehelper --save
+npm install -g allure-commandline --save-dev
+locator2
+npx codeceptjs run --plugins allure
+allure serve output
+npm i mochawesome
+npm i mocha -D
